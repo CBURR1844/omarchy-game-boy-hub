@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "bam1844.game-boy",
+  "name": "Game Boy Hub",
+  "version": "1.1.0",
+  "author": "bam1844",
+  "license": "MIT",
+  "description": "Your GB, GBC and GBA library with mGBA, favorites, speed presets and ROM patches.",
+  "kinds": ["bar-widget"],
+  "activation": "on-demand",
+  "entryPoints": {"barWidget": "Library.qml"},
+  "barWidget": {
+    "displayName": "Game Boy Hub",
+    "description": "Play Game Boy, Game Boy Color and Game Boy Advance ROMs.",
+    "category": "Games",
+    "defaultSection": "right",
+    "aliases": ["gba", "game-boy", "games"],
+    "allowMultiple": false,
+    "defaults": {}
+  }
+}
